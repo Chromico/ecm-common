@@ -129,6 +129,7 @@ public class ESHelper {
                 return CLAIMS_ACCEPTED_DATE_FIELD_NAME;
             case CASES_COMPLETED_REPORT:
             case TIME_TO_FIRST_HEARING_REPORT:
+            case HEARINGS_BY_HEARING_TYPE_REPORT:
                 return LISTING_DATE_FIELD_NAME;
             default:
                 return REPORT_TYPE_NOT_FOUND;
